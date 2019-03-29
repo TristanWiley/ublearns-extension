@@ -1,0 +1,19 @@
+{
+  "name": "UB Learns Enhancement",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "UB Learns how to be good.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://ublearns.buffalo.edu/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "script.js"
+  ]
+}
